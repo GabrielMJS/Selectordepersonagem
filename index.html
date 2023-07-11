@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./responsivo.css">
+
+    <title>Projeto Gemêos</title>
+</head>
+<body >
+    <header class="cabecalho">
+        <img src="imagens/logo.svg" alt="X-men">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem </h1>
+            <ul style="list-style: none;" class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-descricao="Também conhecido como Scott Summers, Ciclope é um membro dos X-Men com o poder de emitir rajadas ópticas de alta intensidade através de seus olhos. Ele é conhecido por sua liderança e devoção aos ideais dos X-Men.">
+                    <img src="imagens/card-ciclope.jpg" alt="ciclope">
+                
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-descricao="Jean Grey é uma poderosa mutante telepata e telecinética. Ela é uma das integrantes originais dos X-Men e possui uma personalidade gentil e compassiva. Jean também é hospedeira da entidade cósmica conhecida como Fênix, que amplifica seus poderes.">
+                    <img src="imagens/card-jean-grey.jpg" alt="jean grey" >
+
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-descricao="Kitty Pryde, também chamada de Lince Negra, tem a habilidade de atravessar objetos sólidos e se tornar intangível. Ela é uma das mais jovens membros dos X-Men e é conhecida por sua inteligência e habilidades táticas.">
+                    <img 
+                        src="imagens/card-lince-negra.jpg" 
+                        alt="lince negra" 
+                    >
+
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-descricao="Conhecido como Erik Lensherr, Magneto é um poderoso mutante com o controle sobre campos magnéticos. Ele acredita que os mutantes são superiores e luta pelos direitos e pela supremacia mutante, muitas vezes entrando em conflito com os X-Men.">
+                    <img 
+                        src="imagens/card-magneto.jpg" 
+                        alt="magneto"
+                    >
+
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-descricao="Kurt Wagner, conhecido como Noturno, é um mutante com habilidades acrobáticas e o poder de se teletransportar. Além disso, ele possui uma aparência distintiva, com pele azul, olhos amarelos e uma cauda preênsil. Noturno é conhecido por sua fé religiosa e por sua personalidade amigável.">
+                    <img 
+                        src="imagens/card-noturno.jpg" 
+                        alt="noturno" 
+                    >
+
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-descricao="Ororo Munroe, também conhecida como Tempestade, possui o poder de manipular o clima e os elementos naturais. Ela pode criar tempestades, controlar o vento e até mesmo gerar raios. Tempestade é uma líder forte e uma combatente habilidosa.">
+                    <img 
+                        src="imagens/card-tempestade.jpg" 
+                        alt="tempestade" 
+                    >
+
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-descricao="O nome verdadeiro de Vampira é Anna Marie. Ela tem o poder de absorver a força vital e os poderes de outras pessoas por meio do contato físico. Esse poder a coloca em conflito constante, já que ela deve ter cuidado para não absorver completamente a energia vital de outra pessoa.">
+                    <img 
+                        src="imagens/card-vampira.jpg" 
+                        alt="vampira" 
+                    >
+
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-descricao=" O nome verdadeiro de Wolverine é Logan. Ele possui um fator de cura regenerativo, sentidos aguçados e garras retráteis de adamantium em suas mãos. Wolverine é um lutador formidável e possui um passado misterioso e violento. Ele é conhecido por sua natureza durona e propensão ao combate.">
+                    <img src="imagens/card-wolverine.jpg" alt="wolverine" >
+
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="imagens/card-ciclope.png" alt="Personagem Selecionado">
+            
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">
+                    
+                </h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    
+                </p>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
